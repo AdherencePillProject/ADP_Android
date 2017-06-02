@@ -76,22 +76,22 @@ ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/sr
 		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:24:13-63
 	android:name
 		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:23:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:29:27-74
 activity#com.adherence.adherence.MainActivity
 ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:33:9-41:20
 	android:configChanges
 		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:35:13-63
 	android:name
 		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:34:13-41
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:36:13-40:29
-action#android.intent.action.MAIN
-ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:37:17-69
-	android:name
-		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:37:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:39:17-77
-	android:name
-		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:39:27-74
 activity#com.adherence.adherence.NextActivity
 ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:43:5-47:16
 	android:configChanges

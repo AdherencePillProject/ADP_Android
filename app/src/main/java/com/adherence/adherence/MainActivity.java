@@ -15,22 +15,28 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseUser;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+import com.android.volley.*;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.HashMap;
-import java.util.Map;
+import static android.R.attr.name;
+import static com.adherence.adherence.R.id.pwd;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,75 +63,75 @@ public class MainActivity extends AppCompatActivity {
         cancelButton.setOnClickListener(ocl);
 
 
-//        final Button button = (Button) findViewById(R.id.button_send);
-//        button.setOnClickListener(new OnClickListener() {
-//            public void onClick(View v) {
-//                // Perform action on click
-//                Date now = new Date();
-//                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
-//                ParseObject testObject = new ParseObject("TestXZ");
-//                testObject.put("TIME", timestamp);
-//                testObject.put("NAME", "ARYAN");
-//                testObject.saveEventually();
-//                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
-//            }
-//        });
-//
-//        final Button button1 = (Button) findViewById(R.id.Jarandice);
-//        button1.setOnClickListener(new OnClickListener() {
-//            public void onClick(View v) {
-//                // Perform action on click
-//                Date now = new Date();
-//                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
-//                ParseObject testObject = new ParseObject("TestXZ");
-//                testObject.put("TIME", timestamp);
-//                testObject.put("NAME", "Jarandice");
-//                testObject.saveEventually();
-//                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
-//            }
-//        });
-//
-//        final Button button2 = (Button) findViewById(R.id.Truvada);
-//        button2.setOnClickListener(new OnClickListener() {
-//            public void onClick(View v) {
-//                // Perform action on click
-//                Date now = new Date();
-//                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
-//                ParseObject testObject = new ParseObject("TestXZ");
-//                testObject.put("TIME", timestamp);
-//                testObject.put("NAME", "Truvada");
-//                testObject.saveEventually();
-//                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
-//            }
-//        });
-//
-//        final Button button3 = (Button) findViewById(R.id.Asprin);
-//        button3.setOnClickListener(new OnClickListener() {
-//            public void onClick(View v) {
-//                // Perform action on click
-//                Date now = new Date();
-//                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
-//                ParseObject testObject = new ParseObject("TestXZ");
-//                testObject.put("TIME", timestamp);
-//                testObject.put("NAME", "Asprin");
-//                testObject.saveEventually();
-//                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
-//            }
-//        });
-//
-//        final Button button4 = (Button) findViewById(R.id.Lipitor);
-//        button4.setOnClickListener(new OnClickListener() {
-//            public void onClick(View v) {
-//                // Perform action on click
-//                Date now = new Date();
-//                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
-//                ParseObject testObject = new ParseObject("TestXZ");
-//                testObject.put("TIME", timestamp);
-//                testObject.put("NAME", "Lipitor");
-//                testObject.saveEventually();
-//                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
-//            }
-//        });
+        final Button button = (Button) findViewById(R.id.button_send);
+        button.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Date now = new Date();
+                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
+                ParseObject testObject = new ParseObject("TestXZ");
+                testObject.put("TIME", timestamp);
+                testObject.put("NAME", "ARYAN");
+                testObject.saveEventually();
+                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        final Button button1 = (Button) findViewById(R.id.Jarandice);
+        button1.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Date now = new Date();
+                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
+                ParseObject testObject = new ParseObject("TestXZ");
+                testObject.put("TIME", timestamp);
+                testObject.put("NAME", "Jarandice");
+                testObject.saveEventually();
+                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        final Button button2 = (Button) findViewById(R.id.Truvada);
+        button2.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Date now = new Date();
+                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
+                ParseObject testObject = new ParseObject("TestXZ");
+                testObject.put("TIME", timestamp);
+                testObject.put("NAME", "Truvada");
+                testObject.saveEventually();
+                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        final Button button3 = (Button) findViewById(R.id.Asprin);
+        button3.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Date now = new Date();
+                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
+                ParseObject testObject = new ParseObject("TestXZ");
+                testObject.put("TIME", timestamp);
+                testObject.put("NAME", "Asprin");
+                testObject.saveEventually();
+                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        final Button button4 = (Button) findViewById(R.id.Lipitor);
+        button4.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Date now = new Date();
+                String timestamp = new SimpleDateFormat("yyyy/MM/dd").format(now);
+                ParseObject testObject = new ParseObject("TestXZ");
+                testObject.put("TIME", timestamp);
+                testObject.put("NAME", "Lipitor");
+                testObject.saveEventually();
+                Toast.makeText(getApplicationContext(), "Click button", Toast.LENGTH_LONG).show();
+            }
+        });
 
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -153,8 +159,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void loginParse(final EditText name, final EditText password) {
         mRequestQueue = Volley.newRequestQueue(this);
-
-        String url = getString(R.string.parseURL) + "/login";
+        String url = "http://129.105.36.93:5000/login";
 
         Map<String, String> map = new HashMap<>();
 //        map.put("username", name.getText().toString());
@@ -173,16 +178,14 @@ public class MainActivity extends AppCompatActivity {
                         try {
                             String sessionToken=res.getString("sessionToken");
                             Log.d("sessiontoken", sessionToken);
-//                            String bottle_temp = res.getString("bottle");
-//                            Log.d("code", bottle_temp);
-                            SharedPreferences data=getSharedPreferences("user_data",MODE_PRIVATE);
+                            SharedPreferences data=getSharedPreferences("data",MODE_PRIVATE);
                             SharedPreferences.Editor editor=data.edit();
                             editor.putString("sessionToken",sessionToken);
-                            editor.putString("username",name.getText().toString());
-//                            editor.putString("bottle", "SC36-05  4C:55:CC:10:7B:12");
+//                            editor.putString("username",name.getText().toString());
+                            editor.putString("username","1@1");
                             Intent intent=new Intent();
-                            intent.putExtra("sessionToken",sessionToken);
-                            intent.putExtra("username",name.getText().toString());
+//                            intent.putExtra("sessionToken",sessionToken);
+//                            intent.putExtra("username",name.getText().toString());
                             intent.setClass(MainActivity.this, NextActivity.class);
                             MainActivity.this.startActivity(intent);
 

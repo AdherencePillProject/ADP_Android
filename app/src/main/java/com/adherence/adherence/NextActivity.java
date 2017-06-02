@@ -83,11 +83,7 @@ public class NextActivity extends AppCompatActivity
 
         ///////////////////////////////2.7///////////////////////////////////////
 //        String tempDeviceName="SC36-03  4C:55:CC:10:6E:9A";
-        SharedPreferences data=getSharedPreferences("user_data",MODE_PRIVATE);
-        String tempDeviceName = data.getString("bottle", null);
-//        Log.d("username", username_temp);
-
-//        String tempDeviceName="SC36-05  4C:55:CC:10:7B:12";
+        String tempDeviceName="SC36-05  4C:55:CC:10:7B:12";
         SQLiteDatabase testdb = openOrCreateDatabase("Adherence_app.db", Context.MODE_PRIVATE, null);
         testdb.execSQL("DROP TABLE IF EXISTS DeviceTable");
         testdb.execSQL("CREATE TABLE IF NOT EXISTS DeviceTable (name VARCHAR PRIMARY KEY)");
@@ -115,8 +111,8 @@ public class NextActivity extends AppCompatActivity
         Intent intent=getIntent();
         //      sessionToken=intent.getStringExtra("sessionToken");
         //      username=intent.getStringExtra("username");
-        SharedPreferences user_data=getSharedPreferences("data",MODE_PRIVATE);
-        sessionToken=user_data.getString("sessionToken","null");
+        SharedPreferences data=getSharedPreferences("data",MODE_PRIVATE);
+        sessionToken=data.getString("sessionToken","null");
         username=data.getString("username","null");
         Log.d("nextactivity session",sessionToken);
         startDate="3000-12-31";
@@ -126,7 +122,7 @@ public class NextActivity extends AppCompatActivity
         traverse prescriptions to get the startDate, namely the min create date of prescription
          */
         mRequestQueue=Volley.newRequestQueue(this);
-        String url= getString(R.string.parseURL)  + "/patient/prescription";
+        String url="http://129.105.36.93:5000/patient/prescription";
         final JsonArrayRequest prescriptionRequest=new JsonArrayRequest(url, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
@@ -321,7 +317,7 @@ public class NextActivity extends AppCompatActivity
             //ParseObject.unpinAllInBackground("user");
             //use logout API
 
-            String url= getString(R.string.parseURL)  + "/logout";
+            String url="http://129.105.36.93:5000/logout";
             JsonObjectRequest jsonObjectRequest=new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
                 @Override
                 public void onResponse(JSONObject response) {
@@ -383,7 +379,7 @@ public class NextActivity extends AppCompatActivity
         //override the function of back button
         if(keyCode==KeyEvent.KEYCODE_BACK){
             mRequestQueue=Volley.newRequestQueue(this);
-            String url= getString(R.string.parseURL)  + "/logout";
+            String url="http://129.105.36.93:5000/logout";
             JsonObjectRequest jsonObjectRequest=new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
                 @Override
                 public void onResponse(JSONObject response) {
