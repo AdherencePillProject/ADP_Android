@@ -70,24 +70,18 @@ public class TodayListAdapter extends RecyclerView.Adapter<TodayListAdapter.View
     public void onBindViewHolder(TodayListAdapter.ViewHolder holder, int position) {
         holder.getPillName().setText(pillName.get(position));
         holder.getTimeAmount().setText(time_amount.get(position));
-        //flag==1, not arrive time
-        if(flag.get(position)==1){
 
-//            holder.getTimeAmount().setTextColor(Color.BLACK);
+        if(flag.get(position)==1){
 
 
         }else if(flag.get(position)==2) {
-            //not have pills in time
-//            holder.getTimeAmount().setTextColor(Color.RED);
 
             holder.getLayout().setBackgroundResource(R.drawable.prescription_button_nottaken);
         }
         else{
-            //have pills in time
-//            holder.getTimeAmount().setTextColor(Color.parseColor("#01a532"));
-//            holder.getLayout().setBackgroundColor(Color.GREEN);
+
             holder.getLayout().setBackgroundResource(R.drawable.prescription_button);
-//            holder.getLayout().setBackgroundResource(R.drawable.prescription_button_nottaken);
+
         }
     }
 

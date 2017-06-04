@@ -61,6 +61,11 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
     private Prescription[] prescriptions;
     private RequestQueue mRequestQueue;
 
+    private ArrayList<String> prescription_morning;
+    private ArrayList<String> prescription_afternoon;
+    private ArrayList<String> prescription_evening;
+    private ArrayList<String> prescription_bedtime;
+
 
 
     private TextView dayofweek;
@@ -87,7 +92,6 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
         TodayFragment2 fragment = new TodayFragment2();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
-//        Log.d("today_frag_newinstance",sessionToken);
         args.putString(ARG_SESSION_TOKEN,sessionToken);
         fragment.setArguments(args);
 
@@ -106,6 +110,12 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
         time_amount=new ArrayList<>();
         pillMap = new HashMap<>();
         flag=new ArrayList<>();
+
+        prescription_morning = new ArrayList<>();
+        prescription_afternoon = new ArrayList<>();
+        prescription_evening = new ArrayList<>();
+        prescription_bedtime = new ArrayList<>();
+
         dayofweek= (TextView) view.findViewById(R.id.m_day);
 
         String int_day=String.valueOf(c.get(c.DAY_OF_WEEK));
@@ -183,7 +193,6 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
                                 String time = new SimpleDateFormat("HH:mm:ss").format(new Date());
 
                                 DateFormat df = new SimpleDateFormat("HH:mm:ss");
-//                                Date currentTime = df.parse(time + ", " + date);
                                 Date currentTime = df.parse(time);
                                 Log.d("Date:", date);
                                 Log.d("Time", time);
@@ -201,7 +210,6 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
                                     }
 
                                 }else{
-//                                    todayList = new ArrayList<String>();
                                 }
                                 Iterator<Map.Entry<String, Integer>> itr = prescriptions[finalK].getTimeAmount(mDay).entrySet().iterator();
 
@@ -210,7 +218,6 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
                                     int eaten = 1;
                                     int updatesLen = todayList.size();
 
-//                                    if ((currentTime.getTime() - df.parse(entry.getKey()).getTime()) > 0){
 
                                         if (updatesLen == 0 && (currentTime.getTime() - df.parse(entry.getKey()).getTime() > 0)){
                                             eaten = 2;
@@ -220,7 +227,6 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
                                                 long l1 = df.parse(entry.getKey()).getTime();
                                                 long l2 = df.parse(todayList.get(j)).getTime();
                                                 if(Math.abs(df.parse(entry.getKey()).getTime() - df.parse(todayList.get(j)).getTime()) <= 7200000 * 2){
-//                                                if(Math.abs(currentTime.getTime() - df.parse(todayList.get(j)).getTime()) <= 7200000){
                                                     eaten = 3;
                                                     break;
                                                 }else if (currentTime.getTime() - df.parse(entry.getKey()).getTime() > 0) {
@@ -241,6 +247,8 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
                                     String pill="pill";
                                     if(amount>1) pill=pill+"s";
                                     time_amount.add(entry.getKey()+": take "+entry.getValue()+" "+pill);
+
+
 
                                     Log.d("flag.size:",flag.size()+"");
                                     Log.d("pillName.size:",pillName.size()+"");

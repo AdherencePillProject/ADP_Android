@@ -2328,7 +2328,7 @@ containing a value of this type.
         public static final int PillList=0x7f0d00a4;
         public static final int Truvada=0x7f0d008a;
         public static final int action0=0x7f0d00b2;
-        public static final int action_about=0x7f0d00d0;
+        public static final int action_about=0x7f0d00d1;
         public static final int action_bar=0x7f0d0071;
         public static final int action_bar_activity_content=0x7f0d0000;
         public static final int action_bar_container=0x7f0d0070;
@@ -2354,7 +2354,7 @@ containing a value of this type.
         public static final int auto=0x7f0d0047;
         public static final int autobutton=0x7f0d0092;
         public static final int beginning=0x7f0d002a;
-        public static final int bluetooth=0x7f0d00cf;
+        public static final int bluetooth=0x7f0d00d0;
         public static final int bottom=0x7f0d001b;
         public static final int buttonPanel=0x7f0d0067;
         public static final int button_scan=0x7f0d008e;
@@ -2428,7 +2428,7 @@ containing a value of this type.
         public static final int listView=0x7f0d0090;
         public static final int list_item=0x7f0d005b;
         public static final int logo=0x7f0d0080;
-        public static final int logout=0x7f0d00cd;
+        public static final int logout=0x7f0d00ce;
         public static final int m_day=0x7f0d00a7;
         public static final int matCal=0x7f0d00a0;
         public static final int match_parent=0x7f0d0033;
@@ -2453,7 +2453,7 @@ containing a value of this type.
         public static final int parallax=0x7f0d0019;
         public static final int parentPanel=0x7f0d005e;
         public static final int pill_count=0x7f0d00c0;
-        public static final int pill_layout=0x7f0d00cc;
+        public static final int pill_layout=0x7f0d00cd;
         public static final int pill_name=0x7f0d00c1;
         public static final int pin=0x7f0d001a;
         public static final int pop_instruction=0x7f0d00c4;
@@ -2512,6 +2512,7 @@ containing a value of this type.
         public static final int time_stamp=0x7f0d00cb;
         public static final int title=0x7f0d005d;
         public static final int title_template=0x7f0d0060;
+        public static final int today_afternoon=0x7f0d00cc;
         public static final int today_container=0x7f0d00a1;
         public static final int today_schedule=0x7f0d00a8;
         public static final int toggle_im=0x7f0d0095;
@@ -2521,7 +2522,7 @@ containing a value of this type.
         public static final int topPanel=0x7f0d005f;
         public static final int tuesday=0x7f0d0039;
         public static final int up=0x7f0d0009;
-        public static final int update=0x7f0d00ce;
+        public static final int update=0x7f0d00cf;
         public static final int useLogo=0x7f0d0014;
         public static final int username=0x7f0d0084;
         public static final int vertical=0x7f0d003e;
