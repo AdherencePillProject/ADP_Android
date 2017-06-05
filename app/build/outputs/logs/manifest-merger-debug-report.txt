@@ -37,7 +37,7 @@ ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/sr
 		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:10:22-78
 uses-feature#android.hardware.bluetooth_le
 ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:12:5-14:35
-MERGED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/96a6466bff0765de2dc0944c63dcf25f17076f73/output/AndroidManifest.xml:32:5-34:35
+MERGED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/fd730096cccc65ebc50d5e35967c8fa7321bce0c/output/AndroidManifest.xml:32:5-34:35
 	android:required
 		ADDED from /Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/AndroidManifest.xml:14:9-32
 	android:name
@@ -160,8 +160,8 @@ MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/dauphin/.android/bu
 MERGED from [com.parse:parse-android:1.15.7] /Users/dauphin/.android/build-cache/446b84912e4f37cb7e20fda7e80977c3a7ffd740/output/AndroidManifest.xml:15:5-17:41
 MERGED from [com.prolificinteractive:material-calendarview:1.4.2] /Users/dauphin/.android/build-cache/03b18036fff008dc6ea723a9937d30768de08664/output/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.volley:volley:1.0.0] /Users/dauphin/.android/build-cache/63287158bda3d4285c7c648de57d2da4e2deab4d/output/AndroidManifest.xml:7:5-43
-MERGED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/96a6466bff0765de2dc0944c63dcf25f17076f73/output/AndroidManifest.xml:25:5-27:41
-MERGED from [ADP_Android:zentri_ble_command:unspecified] /Users/dauphin/.android/build-cache/f50586c36b37d31dab6cf77d913bb68a11d6ea66/output/AndroidManifest.xml:25:5-27:41
+MERGED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/fd730096cccc65ebc50d5e35967c8fa7321bce0c/output/AndroidManifest.xml:25:5-27:41
+MERGED from [ADP_Android:zentri_ble_command:unspecified] /Users/dauphin/.android/build-cache/1811c34627182b35325f1da0c2fe31bc231ccf0d/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/dauphin/.android/build-cache/ff6131584e1ea8f6269b308d10d833057f688565/output/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/dauphin/.android/build-cache/3359a16802abbb1fb6352bfd7b63b9b7f3ad6906/output/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/dauphin/.android/build-cache/9d6df51669607b890a71e235fa64c2f95bb189f6/output/AndroidManifest.xml:18:5-42
@@ -186,13 +186,13 @@ ADDED from [com.android.support:recyclerview-v7:22.0.0] /Users/dauphin/.android/
 	android:name
 		ADDED from [com.android.support:recyclerview-v7:22.0.0] /Users/dauphin/.android/build-cache/4e8d22cd721124ec71917af3a56a5f2235324e22/output/AndroidManifest.xml:24:13-66
 uses-permission#android.permission.BLUETOOTH
-ADDED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/96a6466bff0765de2dc0944c63dcf25f17076f73/output/AndroidManifest.xml:29:5-68
+ADDED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/fd730096cccc65ebc50d5e35967c8fa7321bce0c/output/AndroidManifest.xml:29:5-68
 	android:name
-		ADDED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/96a6466bff0765de2dc0944c63dcf25f17076f73/output/AndroidManifest.xml:29:22-65
+		ADDED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/fd730096cccc65ebc50d5e35967c8fa7321bce0c/output/AndroidManifest.xml:29:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/96a6466bff0765de2dc0944c63dcf25f17076f73/output/AndroidManifest.xml:30:5-74
+ADDED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/fd730096cccc65ebc50d5e35967c8fa7321bce0c/output/AndroidManifest.xml:30:5-74
 	android:name
-		ADDED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/96a6466bff0765de2dc0944c63dcf25f17076f73/output/AndroidManifest.xml:30:22-71
+		ADDED from [ADP_Android:zentri_ble:unspecified] /Users/dauphin/.android/build-cache/fd730096cccc65ebc50d5e35967c8fa7321bce0c/output/AndroidManifest.xml:30:22-71
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/dauphin/.android/build-cache/9d6df51669607b890a71e235fa64c2f95bb189f6/output/AndroidManifest.xml:21:9-23:69
 	android:value

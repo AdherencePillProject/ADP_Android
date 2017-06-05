@@ -49,13 +49,29 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
     static HashMap<String, HashMap<String, String>> patient = new HashMap<String, HashMap<String, String>>();
     private HashMap<String, HashMap<String, String>> display = new HashMap<String, HashMap<String, String>>();
 
-    private RecyclerView mRecyclerView;
+    private RecyclerView mRecyclerView1;
+    private RecyclerView mRecyclerView2;
+    private RecyclerView mRecyclerView3;
+    private RecyclerView mRecyclerView4;
     private TodayListAdapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
 
-    private ArrayList<String> pillName;
-    private ArrayList<String> time_amount;
-    private ArrayList<Integer> flag;
+    private ArrayList<String> pillName1;
+    private ArrayList<String> time_amount1;
+    private ArrayList<Integer> flag1;
+
+    private ArrayList<String> pillName2;
+    private ArrayList<String> time_amount2;
+    private ArrayList<Integer> flag2;
+
+    private ArrayList<String> pillName3;
+    private ArrayList<String> time_amount3;
+    private ArrayList<Integer> flag3;
+
+    private ArrayList<String> pillName4;
+    private ArrayList<String> time_amount4;
+    private ArrayList<Integer> flag4;
+
     private Map<String, Integer> pillMap;
 
     private Prescription[] prescriptions;
@@ -102,14 +118,33 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         final View view = inflater.inflate(R.layout.today2_fragment, container, false);
-        mRecyclerView= (RecyclerView) view.findViewById(R.id.today_schedule);
+        mRecyclerView1= (RecyclerView) view.findViewById(R.id.today_schedule);
         mLayoutManager=new LinearLayoutManager(getActivity());
-        mRecyclerView.setLayoutManager(mLayoutManager);
+        mRecyclerView1.setLayoutManager(mLayoutManager);
+
+        mRecyclerView2= (RecyclerView) view.findViewById(R.id.today_schedule2);
+        mLayoutManager=new LinearLayoutManager(getActivity());
+        mRecyclerView2.setLayoutManager(mLayoutManager);
+
+        mRecyclerView3= (RecyclerView) view.findViewById(R.id.today_schedule3);
+        mLayoutManager=new LinearLayoutManager(getActivity());
+        mRecyclerView3.setLayoutManager(mLayoutManager);
+
+        mRecyclerView4= (RecyclerView) view.findViewById(R.id.today_schedule4);
+        mLayoutManager=new LinearLayoutManager(getActivity());
+        mRecyclerView4.setLayoutManager(mLayoutManager);
+
+
         sessionToken=getArguments().getString(ARG_SESSION_TOKEN);
-        pillName=new ArrayList<>();
-        time_amount=new ArrayList<>();
         pillMap = new HashMap<>();
-        flag=new ArrayList<>();
+
+        pillName1=new ArrayList<>();
+        time_amount1=new ArrayList<>();
+        flag1=new ArrayList<>();
+
+        pillName2=new ArrayList<>();
+        time_amount2=new ArrayList<>();
+        flag2=new ArrayList<>();
 
         prescription_morning = new ArrayList<>();
         prescription_afternoon = new ArrayList<>();
@@ -239,24 +274,30 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
                                     String tempPillName = prescriptions[finalK].getPill();
                                     if (pillMap.containsKey(tempPillName)) eaten = Math.max(eaten, pillMap.get(tempPillName));
 
-                                    Log.d("eaten", Integer.toString(eaten));
-                                    flag.add(new Integer(eaten));
+                                    int cur_hour = Integer.parseInt(entry.getKey().substring(0, 2));
 
-                                    pillName.add(tempPillName);
                                     int amount=entry.getValue();
                                     String pill="pill";
                                     if(amount>1) pill=pill+"s";
-                                    time_amount.add(entry.getKey()+": take "+entry.getValue()+" "+pill);
+                                    String temp_time_amount = entry.getKey()+": take "+entry.getValue()+" "+pill;
 
-
-
-                                    Log.d("flag.size:",flag.size()+"");
-                                    Log.d("pillName.size:",pillName.size()+"");
-                                    if(pillName.size()==flag.size()) {
-                                        Log.d("flag.size:",flag.size()+"");
-                                        mAdapter = new TodayListAdapter(pillName, time_amount, flag);
-                                        mRecyclerView.setAdapter(mAdapter);
+                                    if (7 <= cur_hour && cur_hour < 12) {
+                                        applyAdapter(pillName1, time_amount1, flag1, tempPillName, temp_time_amount, eaten, mRecyclerView1);
                                     }
+
+                                    if (12 <= cur_hour && cur_hour < 18) {
+                                        applyAdapter(pillName2, time_amount2, flag2, tempPillName, temp_time_amount, eaten, mRecyclerView2);
+                                    }
+
+                                    if (18 <= cur_hour && cur_hour <= 24) {
+                                        applyAdapter(pillName3, time_amount3, flag3, tempPillName, temp_time_amount, eaten, mRecyclerView3);
+                                    }
+
+                                    if (0 <= cur_hour && cur_hour < 7) {
+                                        applyAdapter(pillName4, time_amount4, flag4, tempPillName, temp_time_amount, eaten, mRecyclerView4);
+                                    }
+
+
                                 }
                             } catch (JSONException e) {
                                 e.printStackTrace();
@@ -296,6 +337,19 @@ public class TodayFragment2 extends Fragment implements View.OnClickListener {
         return view;
 
     }
+
+
+    private void applyAdapter(ArrayList<String> pillName, ArrayList<String> time_amount, ArrayList<Integer> flag, String tempPillName, String temp_time_amount, int eaten, RecyclerView mRecyclerView) {
+        if (pillName == null || flag == null || pillName.size() != flag.size()) return;
+
+        pillName.add(tempPillName);
+        time_amount.add(temp_time_amount);
+        flag.add(eaten);
+
+        mAdapter = new TodayListAdapter(pillName, time_amount, flag);
+        mRecyclerView.setAdapter(mAdapter);
+    }
+
     //
     @Override
     public void onClick(View v) {

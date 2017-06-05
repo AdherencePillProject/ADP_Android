@@ -2,22 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\dauphin\Dropbox\Platforms\AndroidStudio\ADP\ADP_Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/dauphin/.android/build-cache/fd730096cccc65ebc50d5e35967c8fa7321bce0c/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\dauphin\Dropbox\Platforms\AndroidStudio\ADP\ADP_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d4909079b5cb36ba0626d316b657ca6df744caee\classes.dex" />
+        sha1="9e6c0aa35e53d3daab0a53f15f1b24176569858f">
+        <dex dex="/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/pre-dexed/debug/classes_085b43594a79291c6bf9aaf57957e5a594a30c9c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\dauphin\Dropbox\Platforms\AndroidStudio\ADP\ADP_Android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/dauphin/.android/build-cache/1811c34627182b35325f1da0c2fe31bc231ccf0d/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="8b433ec0673ff82586e0d19127dbe249d2a6f557">
-        <dex dex="C:\Users\dauphin\Dropbox\Platforms\AndroidStudio\ADP\ADP_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9bcbf492962e801c7faf1916386caa6c249aa94d\classes.dex" />
+        sha1="4d34e116b24748a585f3c1612aa123a46f161006">
+        <dex dex="/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/pre-dexed/debug/classes_dcf192c2a9c7a0b008e680b15cd008a69f55ceda.jar" />
     </item>
 
 </items>

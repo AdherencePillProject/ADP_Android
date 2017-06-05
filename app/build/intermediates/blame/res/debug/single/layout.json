@@ -8,28 +8,28 @@
         "source": "/Users/dauphin/.android/build-cache/e9c1d81306a9514c939dc1ae0383fa2d94c46f16/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\.android\\build-cache\\b9821aa24f9a1c14fdd194a3c6770efa585b6394\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/res/merged/debug/layout/fragment2.xml",
         "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/res/layout/fragment2.xml"
     },
     {
-        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\.android\\build-cache\\b9821aa24f9a1c14fdd194a3c6770efa585b6394\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\.android\\build-cache\\b9821aa24f9a1c14fdd194a3c6770efa585b6394\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/res/merged/debug/layout/listitem.xml",
         "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/src/main/res/layout/listitem.xml"
     },
     {
-        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\.android\\build-cache\\e9c1d81306a9514c939dc1ae0383fa2d94c46f16\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\.android\\build-cache\\b9821aa24f9a1c14fdd194a3c6770efa585b6394\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\.android\\build-cache\\b9821aa24f9a1c14fdd194a3c6770efa585b6394\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\.android\\build-cache\\e9c1d81306a9514c939dc1ae0383fa2d94c46f16\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/res/merged/debug/layout/layout_snackbar_include.xml",
@@ -84,12 +84,12 @@
         "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\.android\\build-cache\\b9821aa24f9a1c14fdd194a3c6770efa585b6394\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/dauphin/.android/build-cache/e9c1d81306a9514c939dc1ae0383fa2d94c46f16/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\.android\\build-cache\\b9821aa24f9a1c14fdd194a3c6770efa585b6394\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/dauphin/.android/build-cache/e9c1d81306a9514c939dc1ae0383fa2d94c46f16/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_medication.xml",
@@ -100,16 +100,16 @@
         "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\src\\main\\res\\layout\\medication_listitem.xml"
     },
     {
-        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\.android\\build-cache\\e9c1d81306a9514c939dc1ae0383fa2d94c46f16\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/dauphin/.android/build-cache/e9c1d81306a9514c939dc1ae0383fa2d94c46f16/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/dauphin/.android/build-cache/e9c1d81306a9514c939dc1ae0383fa2d94c46f16/output/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/dauphin/.android/build-cache/e9c1d81306a9514c939dc1ae0383fa2d94c46f16/output/res/layout/abc_popup_menu_item_layout.xml"
+        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\.android\\build-cache\\e9c1d81306a9514c939dc1ae0383fa2d94c46f16\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -212,12 +212,12 @@
         "source": "/Users/dauphin/.android/build-cache/e9c1d81306a9514c939dc1ae0383fa2d94c46f16/output/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
-        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\src\\main\\res\\layout\\tool_bar.xml"
-    },
-    {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",
         "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\.android\\build-cache\\76d3cf20d272877708b2142c3ec9f9d1affe1ced\\output\\res\\layout\\layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
+        "source": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\C:\\Users\\dauphin\\Dropbox\\Platforms\\AndroidStudio\\ADP\\ADP_Android\\app\\src\\main\\res\\layout\\tool_bar.xml"
     },
     {
         "merged": "/Users/dauphin/Dropbox/Platforms/AndroidStudio/ADP/ADP_Android/app/build/intermediates/res/merged/debug/layout/tool_bar.xml",

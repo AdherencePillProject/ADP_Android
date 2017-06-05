@@ -2328,7 +2328,7 @@ containing a value of this type.
         public static final int PillList=0x7f0d00a4;
         public static final int Truvada=0x7f0d008a;
         public static final int action0=0x7f0d00b2;
-        public static final int action_about=0x7f0d00d1;
+        public static final int action_about=0x7f0d00d9;
         public static final int action_bar=0x7f0d0071;
         public static final int action_bar_activity_content=0x7f0d0000;
         public static final int action_bar_container=0x7f0d0070;
@@ -2353,8 +2353,9 @@ containing a value of this type.
         public static final int app_name=0x7f0d0081;
         public static final int auto=0x7f0d0047;
         public static final int autobutton=0x7f0d0092;
+        public static final int bedtime=0x7f0d00d3;
         public static final int beginning=0x7f0d002a;
-        public static final int bluetooth=0x7f0d00d0;
+        public static final int bluetooth=0x7f0d00d8;
         public static final int bottom=0x7f0d001b;
         public static final int buttonPanel=0x7f0d0067;
         public static final int button_scan=0x7f0d008e;
@@ -2401,6 +2402,7 @@ containing a value of this type.
         public static final int end_padder=0x7f0d00be;
         public static final int enterAlways=0x7f0d0015;
         public static final int enterAlwaysCollapsed=0x7f0d0016;
+        public static final int evening=0x7f0d00d0;
         public static final int exitUntilCollapsed=0x7f0d0017;
         public static final int expand_activities_button=0x7f0d0058;
         public static final int expanded_menu=0x7f0d0068;
@@ -2428,7 +2430,7 @@ containing a value of this type.
         public static final int listView=0x7f0d0090;
         public static final int list_item=0x7f0d005b;
         public static final int logo=0x7f0d0080;
-        public static final int logout=0x7f0d00ce;
+        public static final int logout=0x7f0d00d6;
         public static final int m_day=0x7f0d00a7;
         public static final int matCal=0x7f0d00a0;
         public static final int match_parent=0x7f0d0033;
@@ -2453,7 +2455,7 @@ containing a value of this type.
         public static final int parallax=0x7f0d0019;
         public static final int parentPanel=0x7f0d005e;
         public static final int pill_count=0x7f0d00c0;
-        public static final int pill_layout=0x7f0d00cd;
+        public static final int pill_layout=0x7f0d00d5;
         public static final int pill_name=0x7f0d00c1;
         public static final int pin=0x7f0d001a;
         public static final int pop_instruction=0x7f0d00c4;
@@ -2467,6 +2469,10 @@ containing a value of this type.
         public static final int radio=0x7f0d006b;
         public static final int receivedDataBox=0x7f0d0098;
         public static final int right=0x7f0d0026;
+        public static final int rl_ListView1=0x7f0d00cc;
+        public static final int rl_ListView2=0x7f0d00cd;
+        public static final int rl_ListView3=0x7f0d00cf;
+        public static final int rl_ListView4=0x7f0d00d2;
         public static final int saturday=0x7f0d0036;
         public static final int screen=0x7f0d0050;
         public static final int scroll=0x7f0d0018;
@@ -2512,9 +2518,11 @@ containing a value of this type.
         public static final int time_stamp=0x7f0d00cb;
         public static final int title=0x7f0d005d;
         public static final int title_template=0x7f0d0060;
-        public static final int today_afternoon=0x7f0d00cc;
         public static final int today_container=0x7f0d00a1;
         public static final int today_schedule=0x7f0d00a8;
+        public static final int today_schedule2=0x7f0d00ce;
+        public static final int today_schedule3=0x7f0d00d1;
+        public static final int today_schedule4=0x7f0d00d4;
         public static final int toggle_im=0x7f0d0095;
         public static final int toggle_str_comm=0x7f0d0091;
         public static final int toolbar=0x7f0d00af;
@@ -2522,7 +2530,7 @@ containing a value of this type.
         public static final int topPanel=0x7f0d005f;
         public static final int tuesday=0x7f0d0039;
         public static final int up=0x7f0d0009;
-        public static final int update=0x7f0d00cf;
+        public static final int update=0x7f0d00d7;
         public static final int useLogo=0x7f0d0014;
         public static final int username=0x7f0d0084;
         public static final int vertical=0x7f0d003e;
